@@ -1,4 +1,5 @@
 import React from 'react';
+import FooterBar from './FooterBar'; 
 
 const App = () => (
   <div className="flex flex-col min-h-screen">
@@ -66,6 +67,7 @@ const App = () => (
         <hr style={{ borderColor: '#FFD700' }}></hr>
       </div>
     </div>
+    <FooterBar />
   </div>
 );
 
